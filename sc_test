@@ -1,0 +1,89 @@
+import pcbnew
+import math
+
+board = pcbnew.GetBoard()
+
+# ===============================
+# USER PARAMETERS
+# ===============================
+
+die_width = 4.0
+die_height = 5.2
+
+top_pads = 18
+bottom_pads = 18
+left_pads = 19
+right_pads = 19
+
+pad_pitch = 0.20
+bond_length = 2.0
+
+pad_width = 0.10
+pad_height = 0.30
+
+# ===============================
+
+def mm(val):
+    return pcbnew.FromMM(val)
+
+def create_pad(x, y, width, height, angle_deg=0):
+    pad = pcbnew.PAD(board)
+    pad.SetShape(pcbnew.PAD_SHAPE_RECT)
+    pad.SetSize(pcbnew.VECTOR2I(mm(width), mm(height)))
+    pad.SetPosition(pcbnew.VECTOR2I(mm(x), mm(y)))
+    pad.SetLayerSet(pad.SMDMask())
+    pad.SetAttribute(pcbnew.PAD_ATTRIB_SMD)
+    pad.SetOrientationDegrees(angle_deg)
+    board.Add(pad)
+
+# -------------------------------
+# Calculate outward positions
+# -------------------------------
+
+top_y = die_height/2 + bond_length
+bottom_y = -(die_height/2 + bond_length)
+left_x = -(die_width/2 + bond_length)
+right_x = die_width/2 + bond_length
+
+# -------------------------------
+# Top Pads
+# -------------------------------
+
+x_start = -((top_pads - 1) / 2) * pad_pitch
+
+for i in range(top_pads):
+    x = x_start + i * pad_pitch
+    create_pad(x, top_y, pad_height, pad_width, 0)
+
+# -------------------------------
+# Bottom Pads
+# -------------------------------
+
+x_start = -((bottom_pads - 1) / 2) * pad_pitch
+
+for i in range(bottom_pads):
+    x = x_start + i * pad_pitch
+    create_pad(x, bottom_y, pad_height, pad_width, 0)
+
+# -------------------------------
+# Left Pads
+# -------------------------------
+
+y_start = -((left_pads - 1) / 2) * pad_pitch
+
+for i in range(left_pads):
+    y = y_start + i * pad_pitch
+    create_pad(left_x, y, pad_width, pad_height, 90)
+
+# -------------------------------
+# Right Pads
+# -------------------------------
+
+y_start = -((right_pads - 1) / 2) * pad_pitch
+
+for i in range(right_pads):
+    y = y_start + i * pad_pitch
+    create_pad(right_x, y, pad_width, pad_height, 90)
+
+pcbnew.Refresh()
+print("Bond pads generated successfully.")

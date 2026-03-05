@@ -1,4 +1,4 @@
-26660968152101522
+26669825638992676
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70560,6 +70560,20 @@ Integrated Circuit
 8
 8
 MOSBius_V2_CHIP
+AD8542_SOIC8
+
+AD8542ARZ-REEL7 
+0
+8
+8
+MOSBius_V2_CHIP
+DS4404_DAC
+
+
+0
+15
+15
+MOSBius_V2_CHIP
 LED_150120RS75000_WRE
 
 150120RS75000 
@@ -70595,12 +70609,26 @@ Integrated Circuit
 5
 5
 MOSBius_V2_CHIP
+NCV8164ASN330T1G_OSI
+
+NCV8164ASN330T1G 
+0
+5
+5
+MOSBius_V2_CHIP
 QFN_Modified
 64-Lead Plastic Quad Flat, No Lead Package (MR) - 9x9x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)
 QFN 0.5
 0
 90
 65
+MOSBius_V2_CHIP
+RPi_Pico_SMD_TH
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+86
+43
 MOSBius_V2_CHIP
 SN74LVC1G3157
 DBV (R-PDSO-G6)
@@ -70636,6 +70664,13 @@ Connector
 0
 202
 202
+MOSBius_V2_CHIP
+TRIM_3314J-1-253E
+
+
+0
+3
+3
 MOSBius_V2_CHIP
 UM6K34NTCN_FP1
 UMT6
