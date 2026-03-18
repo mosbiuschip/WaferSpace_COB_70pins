@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 25,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "V3_COB.kicad_prl",
+    "filename": "V3_COB_Original.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -92,18 +92,18 @@
       11
     ],
     "col_widths": [
-      28,
-      26,
-      17,
-      11,
-      17,
-      17,
-      17,
-      12,
-      17,
-      17,
-      17,
-      17
+      168,
+      156,
+      98,
+      68,
+      98,
+      98,
+      98,
+      72,
+      98,
+      98,
+      98,
+      98
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
