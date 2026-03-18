@@ -1,4 +1,4 @@
-26673373240257224
+26669825638992676
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70567,13 +70567,6 @@ AD8542ARZ-REEL7
 8
 8
 MOSBius_V2_CHIP
-CONN-SMD_70P-P0.40_HCTL_HC-PBB40C-70DP-0.4V-02
-
-
-0
-74
-71
-MOSBius_V2_CHIP
 DS4404_DAC
 
 
@@ -70699,13 +70692,6 @@ waferspace_default_padring_v0.1
 0
 80
 75
-MOSBius_V2_CHIP
-waferspace_default_padring_v0.2
-
-
-0
-81
-81
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
