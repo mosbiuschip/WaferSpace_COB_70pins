@@ -1,0 +1,3 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+J101,1,Conn_02x35_Counter_Clockwise_MountingPin,CONN-SMD_70P-P0.40_HCTL_HC-PBB40C-70DP-0.4V-02,,,,smt,"Generic connectable mounting pin connector, double row, 02x35, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+U102,1,~,waferspace_default_padring_v0.2,,,,smt,
