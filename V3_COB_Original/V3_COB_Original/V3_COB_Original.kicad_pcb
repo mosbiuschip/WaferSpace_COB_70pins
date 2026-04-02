@@ -4138,7 +4138,7 @@
 	)
 	(gr_arc
 		(start 177.8525 86.82625)
-		(mid 177.370718 86.564573)
+		(mid 177.37077 86.564579)
 		(end 177.8925 86.39625)
 		(stroke
 			(width 0.05)
@@ -4158,8 +4158,8 @@
 		(uuid "f3f1d530-ae30-46ce-83d0-d07f49936dfd")
 	)
 	(gr_line
-		(start 177.849999 86.82)
-		(end 178.32 86.410001)
+		(start 178.320001 86.82)
+		(end 177.85 86.410001)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -4168,8 +4168,8 @@
 		(uuid "21be977d-6104-4dcd-a171-a7fb3305855c")
 	)
 	(gr_line
-		(start 178.18 86.73)
-		(end 178.255 86.6675)
+		(start 177.99 86.73)
+		(end 177.915 86.6675)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -4178,8 +4178,8 @@
 		(uuid "39f61ac4-c6dc-4fef-8d79-c21955cb1f7a")
 	)
 	(gr_line
-		(start 177.89 86.39)
-		(end 177.99 86.5)
+		(start 178.28 86.39)
+		(end 178.18 86.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -4188,9 +4188,9 @@
 		(uuid "6c4e3e1e-4574-43aa-b852-21a4f67b4f9d")
 	)
 	(gr_arc
-		(start 177.85 86.82)
-		(mid 177.368218 86.558323)
-		(end 177.89 86.39)
+		(start 178.28 86.39)
+		(mid 178.801696 86.558248)
+		(end 178.32 86.82)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -4199,8 +4199,8 @@
 		(uuid "7075233a-55c7-41fb-bf1d-8457710e38cb")
 	)
 	(gr_line
-		(start 178.12875 86.383125)
-		(end 178.33125 86.616875)
+		(start 178.04125 86.383125)
+		(end 177.83875 86.616875)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -4209,8 +4209,8 @@
 		(uuid "a7bce4dd-6812-481a-81df-7c5ed4bbc712")
 	)
 	(gr_line
-		(start 178.06 86.44)
-		(end 178.255 86.6675)
+		(start 178.11 86.44)
+		(end 177.915 86.6675)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -4219,9 +4219,9 @@
 		(uuid "c0413792-af0b-4e0e-8a1d-8bfe9a736224")
 	)
 	(gr_arc
-		(start 178.32 86.41)
-		(mid 178.801782 86.671677)
-		(end 178.28 86.84)
+		(start 177.89 86.84)
+		(mid 177.368304 86.671752)
+		(end 177.85 86.41)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -4230,8 +4230,8 @@
 		(uuid "c5ed05c3-eece-4cea-900a-b2753151e560")
 	)
 	(gr_line
-		(start 177.99 86.500455)
-		(end 178.06 86.44)
+		(start 178.18 86.500455)
+		(end 178.11 86.44)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -4240,8 +4240,8 @@
 		(uuid "c97fca49-9bfc-44c1-8800-abbc9167258e")
 	)
 	(gr_line
-		(start 178.18 86.73)
-		(end 178.28 86.84)
+		(start 177.99 86.73)
+		(end 177.89 86.84)
 		(stroke
 			(width 0.05)
 			(type solid)
