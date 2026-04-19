@@ -735,7 +735,7 @@
 				(type "copper")
 				(thickness 0.0175)
 			)
-			(layer "dielectric 1"
+			(layer "dielectric 37"
 				(type "prepreg")
 				(thickness 0.196)
 				(material "FR4")
@@ -746,7 +746,7 @@
 				(type "copper")
 				(thickness 0.035)
 			)
-			(layer "dielectric 2"
+			(layer "dielectric 38"
 				(type "core")
 				(thickness 0.23)
 				(material "FR4")
@@ -757,7 +757,7 @@
 				(type "copper")
 				(thickness 0.035)
 			)
-			(layer "dielectric 3"
+			(layer "dielectric 39"
 				(type "prepreg")
 				(thickness 0.196)
 				(material "FR4")
