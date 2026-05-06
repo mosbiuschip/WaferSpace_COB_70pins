@@ -1,0 +1,13 @@
+1. Pi-Pico remains the processor - https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#layout_non-wireless
+	a. 2 SPI Max - 1 Minimum for LCD - Can add multiplexing
+	b. 2 I2C Max - Not Used
+	c. 3 ADC Max 
+	d. 26 GPIO Max 
+2. LCD Display has options
+	a. Simple Text Only - Encoder + 2 Buttons - Simple but effective if there is no reason to do full RGB graphics
+	b. Full Graphics - Encoder + 2 buttons - Not a lot on Digikey are cheap/come with breakout board
+	c. Touch LCD - Nothing - $13 - TFT LCD 2.8″ 240×320 RGB SPI Display with Touchscreen - https://protosupplies.com/product/tft-lcd-2-8-240x320-rgb-spi-display-with-touchscreen/
+3. Sizing Depends Based on LCD
+4. Encoder: https://www.digikey.com/en/products/detail/bourns-inc/PEC11R-4220F-S0024/4499660
+	a. Does it need to be nicer/friendlier?
+	b. Will use generic socket in any case
