@@ -735,7 +735,7 @@
 				(type "copper")
 				(thickness 0.0175)
 			)
-			(layer "dielectric 1"
+			(layer "dielectric 37"
 				(type "prepreg")
 				(thickness 0.196)
 				(material "FR4")
@@ -746,7 +746,7 @@
 				(type "copper")
 				(thickness 0.035)
 			)
-			(layer "dielectric 2"
+			(layer "dielectric 38"
 				(type "core")
 				(thickness 0.23)
 				(material "FR4")
@@ -757,7 +757,7 @@
 				(type "copper")
 				(thickness 0.035)
 			)
-			(layer "dielectric 3"
+			(layer "dielectric 39"
 				(type "prepreg")
 				(thickness 0.196)
 				(material "FR4")
@@ -82488,114 +82488,114 @@
 		(uuid "901e54a0-9795-47ce-9700-c3dd2ff06d92")
 	)
 	(gr_line
-		(start 63.82 43.39)
-		(end 63.82 41.39)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "1dfb0b9b-1e2e-4da6-8131-af8918753713")
-	)
-	(gr_line
-		(start 77.82 43.39)
-		(end 77.82 41.39)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "4b4a18dd-c870-4e0b-8341-7711184a4b22")
-	)
-	(gr_line
-		(start 91.82 43.39)
-		(end 91.82 41.39)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "45f5d474-9542-429c-bd3b-198ec6cd023c")
-	)
-	(gr_line
-		(start 105.82 43.39)
-		(end 105.82 41.39)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "6c8eb387-6c10-4dd2-aa6a-06144b18443b")
-	)
-	(gr_line
-		(start 119.82 43.39)
-		(end 119.82 41.39)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "58822306-77d0-4588-82ae-b85ebd703850")
-	)
-	(gr_line
-		(start 133.82 43.39)
-		(end 133.82 41.39)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "ac5c815e-dc73-444f-a001-8b9bc67179ae")
-	)
-	(gr_line
-		(start 138.32 50.39)
+		(start 55 50.39)
 		(end 140.32 50.39)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "User.1")
 		(uuid "f54f89e2-8bfc-4076-96bc-06406511fd53")
 	)
 	(gr_line
-		(start 138.32 66.39)
+		(start 55 66.39)
 		(end 140.32 66.39)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "User.1")
 		(uuid "b817bd98-3d9d-44d7-9b3e-be773070351f")
 	)
 	(gr_line
-		(start 138.32 82.39)
+		(start 55 82.39)
 		(end 140.32 82.39)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "User.1")
 		(uuid "d9756fb5-d000-47a1-b9f9-4ef6dc34a064")
 	)
 	(gr_line
-		(start 138.32 98.39)
+		(start 55 98.39)
 		(end 140.32 98.39)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "User.1")
 		(uuid "76df137e-dd76-4e31-8d55-3c9e7140080c")
 	)
 	(gr_line
-		(start 138.32 114.39)
+		(start 55 114.39)
 		(end 140.32 114.39)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "User.1")
 		(uuid "70393f0b-64cd-43e5-8f95-4cf1bacec54a")
+	)
+	(gr_line
+		(start 63.82 125)
+		(end 63.82 41.39)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "1dfb0b9b-1e2e-4da6-8131-af8918753713")
+	)
+	(gr_line
+		(start 77.82 125)
+		(end 77.82 41.39)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "4b4a18dd-c870-4e0b-8341-7711184a4b22")
+	)
+	(gr_line
+		(start 91.82 125)
+		(end 91.82 41.39)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "45f5d474-9542-429c-bd3b-198ec6cd023c")
+	)
+	(gr_line
+		(start 105.82 125)
+		(end 105.82 41.39)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "6c8eb387-6c10-4dd2-aa6a-06144b18443b")
+	)
+	(gr_line
+		(start 119.82 125)
+		(end 119.82 41.39)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "58822306-77d0-4588-82ae-b85ebd703850")
+	)
+	(gr_line
+		(start 133.82 125)
+		(end 133.82 41.39)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "ac5c815e-dc73-444f-a001-8b9bc67179ae")
 	)
 	(gr_rect
 		(start 63.825 50.38)
