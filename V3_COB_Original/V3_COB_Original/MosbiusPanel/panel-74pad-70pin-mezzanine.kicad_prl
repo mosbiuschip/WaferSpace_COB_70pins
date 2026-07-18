@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -49,9 +49,11 @@
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes"
+      "shapes",
+      "board_outline_area",
+      "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "00000000_00000000_00002a8a_aaaaaaff",
     "zone_display_mode": 0
   },
   "git": {
@@ -61,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "V3_COB_Original.kicad_prl",
+    "filename": "panel-74pad-70pin-mezzanine.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -93,20 +95,7 @@
       10,
       11
     ],
-    "col_widths": [
-      107,
-      100,
-      62,
-      43,
-      62,
-      62,
-      62,
-      46,
-      62,
-      62,
-      62,
-      62
-    ],
+    "col_widths": [],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
@@ -118,7 +107,7 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": 0
+    "sorting_column": -1
   },
   "open_jobsets": [],
   "project": {
